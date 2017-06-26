@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.infinitescripts.coins.SearchActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:baselineAligned="false"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp">
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:onClick="onClickScan"
+        android:text="@string/scan"
+        android:layout_marginTop="30dp"
+
+        android:layout_above="@+id/btnSearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:onClick="addNewCoin"
+        android:text="Add a new Coin"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnSearch"
+        android:layout_alignStart="@+id/btnSearch" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:onClick="searchFor"
+        android:text="Search"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/buttonScan"
+        android:layout_alignEnd="@+id/buttonScan"
+        android:layout_alignLeft="@+id/buttonScan"
+        android:layout_alignStart="@+id/buttonScan" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+
+        android:text="Sign Out"
+        android:onClick="signOut"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_alignBottom="@+id/btnAdd"
+        android:layout_alignTop="@+id/btnAdd" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="329dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/buttonScan"
+        android:layout_alignLeft="@+id/buttonScan"
+        android:layout_alignStart="@+id/buttonScan" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Search by QR"
+        android:layout_above="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+
+</RelativeLayout>

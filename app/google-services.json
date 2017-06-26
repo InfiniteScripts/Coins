@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "598260798695",
+    "firebase_url": "https://coins-77f6a.firebaseio.com",
+    "project_id": "coins-77f6a",
+    "storage_bucket": "coins-77f6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598260798695:android:fe728dafc37bf4c3",
+        "android_client_info": {
+          "package_name": "com.infinitescripts.coins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598260798695-67cskj51b6cem4itb5jv24f07e0vhhas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infinitescripts.coins",
+            "certificate_hash": "9e764049dbd604f3921977f3f1637486ba944b22"
+          }
+        },
+        {
+          "client_id": "598260798695-2eh200d8d29466sn3tf88mlio68pb67h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4h41gVdLVMg8c3osHB2MvNCr2zoY9Mks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598260798695-2eh200d8d29466sn3tf88mlio68pb67h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
